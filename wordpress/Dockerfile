@@ -1,5 +1,5 @@
 FROM wordpress
-LABEL leo
+LABEL maintainer="leo"
 
 # Add random file
 ADD ./hosts /tmp

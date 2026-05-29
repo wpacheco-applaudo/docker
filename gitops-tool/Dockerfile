@@ -1,4 +1,4 @@
-# --- Stage 1: Download kubectl safely ---
+# ---Stage 1: Download kubectl safely ---
 FROM alpine:3.19 AS fetcher
 RUN apk add --no-cache curl
 
